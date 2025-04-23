@@ -39,7 +39,7 @@ class ItemEnterListener(EventListener):
         try:
             os.system(terminal.format(command=command))
         except Exception as e:
-            with open('/home/zh0per/Desktop/out.txt', 'w') as f:
+            with open('/home/barkeep/Desktop/out.txt', 'w') as f:
                 f.write(e)
         return HideWindowAction()
 
